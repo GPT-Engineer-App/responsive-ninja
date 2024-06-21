@@ -9,7 +9,8 @@ const Navbar = () => {
           <Link as={RouterLink} to="/" color="white" fontSize="xl" fontWeight="bold">DataStore</Link>
         </Box>
         <Flex alignItems="center">
-          <Button as={RouterLink} to="/dashboard" colorScheme="teal" variant="outline" mr={4}>Dashboard</Button>
+          <Button as={RouterLink} to="/home" colorScheme="teal" variant="outline" mr={4}>Home Page</Button>
+          <Button as={RouterLink} to="/new-page" colorScheme="teal" variant="outline" mr={4}>New Page</Button>
           <Button as={RouterLink} to="/login" colorScheme="teal" variant="outline" mr={4}>Login</Button>
           <Button as={RouterLink} to="/signup" colorScheme="teal" variant="outline">Sign Up</Button>
         </Flex>
